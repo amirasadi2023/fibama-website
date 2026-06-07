@@ -109,7 +109,7 @@ export const siteBrandLink: FooterBrandLink = {
   href: "/",
   ariaLabel: brandName,
   logo: {
-    src: "/images/logo2.svg",
+    src: "/images/logo-2.svg",
     alt: brandName,
     width: 208,
     height: 68,
@@ -184,7 +184,7 @@ export const landingPageSeo = {
     locale: "fa_IR",
     siteName: brandName,
     url: "/",
-    image: "/images/logo2.svg",
+    image: "/images/logo-2.svg",
     imageAlt: `لوگوی ${brandName}`,
   },
   twitter: {
@@ -192,7 +192,7 @@ export const landingPageSeo = {
     title: `${brandName} | مرجع قیمت ابزار`,
     description:
       "دسترسی سریع و منظم به لیست قیمت و کاتالوگ برندهای ابزار در فی باما.",
-    image: "/images/logo2.svg",
+    image: "/images/logo-2.svg",
     imageAlt: `لوگوی ${brandName}`,
   },
 };
