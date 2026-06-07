@@ -1,0 +1,8 @@
+<svg width="148" height="48" viewBox="0 0 148 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="146" height="46" rx="6" fill="#111111" stroke="#555555"/>
+  <path d="M20 18.5h19l-2.1 17.3a4 4 0 0 1-4 3.5h-6.8a4 4 0 0 1-4-3.5L20 18.5Z" fill="#6FB42D"/>
+  <path d="M25 18.5c0-4 2-7.2 4.5-7.2s4.5 3.2 4.5 7.2" stroke="#A7D96A" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="m29.6 24.2 3.4 3.5 5.2-7.2" stroke="#DDF2C3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="48" y="18" fill="#D7D7D7" font-family="Arial, sans-serif" font-size="7" font-weight="700" letter-spacing=".1">Download from</text>
+  <text x="48" y="32" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="16" font-weight="700">Bazaar</text>
+</svg>

@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Ray";
+  src: url("./fonts/Ray_Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ray";
+  src: url("./fonts/Ray_Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ray";
+  src: url("./fonts/Ray_ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ray";
+  src: url("./fonts/Ray_ExtraBlack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --primary: #ffb703;
+  --secondary: #6c6c6c;
+  --accent: #05668d;
+  --base-black: #0b0c17;
+  --black: #000;
+  --white: #fff;
+  --hero-bg-note-left: url("../../public/images/hero/left-top.svg");
+  --hero-bg-note-right: url("../../public/images/hero/right-top.svg");
+  --hero-bg-note-bottom: url("../../public/images/hero/bottom.svg");
+}
+
+@theme {
+  --color-*: initial;
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-black: var(--black);
+  --color-base-black: var(--base-black);
+  --color-white: var(--white);
+  --font-sans:
+    "Ray", "Vazirmatn", "IRANSansX", "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+@layer base {
+  html {
+    direction: rtl;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white font-sans;
+    margin: 0;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+
+  input,
+  button {
+    font: inherit;
+  }
+}
+
+@layer utilities {
+  .site-container {
+    width: 100%;
+    max-width: 80rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+
+  @media (min-width: 640px) {
+    .site-container {
+      padding-inline: 2rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .site-container {
+      padding-inline: 2.5rem;
+    }
+  }
+
+  .bg-hero-note-left {
+    background-image: var(--hero-bg-note-left);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .bg-hero-note-right {
+    background-image: var(--hero-bg-note-right);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .bg-hero-note-bottom {
+    background-image: var(--hero-bg-note-bottom);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
