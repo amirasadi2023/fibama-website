@@ -140,11 +140,11 @@ export const landingHeroContent: LandingHeroContent = {
   },
   images: {
     background: {
-      src: "/images/hero/hero-back-bg.svg",
+      src: "/images/hero/hero-back-bgi.svg",
       alt: "",
     },
     phoneMockup: {
-      src: "/images/hero/mockup-mobile-1.png",
+      src: "/images/hero/mockup-img-mobile-1.png",
       alt: "نمایی از اپلیکیشن فی باما",
     },
   },
