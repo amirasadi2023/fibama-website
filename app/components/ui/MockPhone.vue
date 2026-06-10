@@ -23,7 +23,7 @@ const { variant } = toRefs(props);
 
 const mockupSrc = computed(() =>
   variant.value === "login"
-    ? "/images/hero/mockup-img-login.png"
-    : "/images/hero/mockup-img-mobile-2.png",
+    ? "/images/hero/mockup-login.png"
+    : "/images/hero/mockup-mobile-2.png",
 );
 </script>

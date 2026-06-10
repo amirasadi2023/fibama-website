@@ -109,7 +109,7 @@ export const siteBrandLink: FooterBrandLink = {
   href: "/",
   ariaLabel: brandName,
   logo: {
-    src: "/images/logo-2.svg",
+    src: "/images/logo.svg",
     alt: brandName,
     width: 208,
     height: 68,
@@ -140,11 +140,11 @@ export const landingHeroContent: LandingHeroContent = {
   },
   images: {
     background: {
-      src: "/images/hero/hero-back-bgi.svg",
+      src: "/images/hero/hero-back-bg.svg",
       alt: "",
     },
     phoneMockup: {
-      src: "/images/hero/mockup-img-mobile-1.png",
+      src: "/images/hero/mockup-mobile-1.png",
       alt: "نمایی از اپلیکیشن فی باما",
     },
   },
@@ -172,7 +172,7 @@ export const landingPageSeo = {
   robots: "index, follow",
   themeColor: "#55AA35",
   favicon: {
-    href: "/favicon.png",
+    href: "/favicon.svg",
     type: "image/svg+xml",
     sizes: "32x32",
   },
@@ -184,7 +184,7 @@ export const landingPageSeo = {
     locale: "fa_IR",
     siteName: brandName,
     url: "/",
-    image: "/images/logo-2.svg",
+    image: "/images/logo.svg",
     imageAlt: `لوگوی ${brandName}`,
   },
   twitter: {
@@ -192,7 +192,7 @@ export const landingPageSeo = {
     title: `${brandName} | مرجع قیمت ابزار`,
     description:
       "دسترسی سریع و منظم به لیست قیمت و کاتالوگ برندهای ابزار در فی باما.",
-    image: "/images/logo-2.svg",
+    image: "/images/logo.svg",
     imageAlt: `لوگوی ${brandName}`,
   },
 };
