@@ -199,9 +199,9 @@ export const landingPageSeo = {
 
 export const supportContactInfo: SupportContactInfo = {
   phone: {
-    label: toPersianDigits("05191012736"),
-    href: "tel:05191012736",
-    ariaLabel: "تماس با پشتیبانی ۰۵۱۹۱۰۱۲۷۳۶",
+    label: toPersianDigits("09157791456"),
+    href: "tel:09157791456",
+    ariaLabel: "تماس با پشتیبانی ۰۹۱۵۷۷۹۱۴۵۶",
     dir: "ltr",
   },
 };
@@ -275,7 +275,7 @@ export const footerContactItems: FooterContactItem[] = [
       {
         label: toPersianDigits("09157791456"),
         href: "tel:09157791456",
-        ariaLabel: "تماس با شماره ثابت ۰۹۱۵۷۷۹۱۴۵۶",
+        ariaLabel: "تماس با شماره همراه ۰۹۱۵۷۷۹۱۴۵۶",
         dir: "ltr",
       },
       {
